@@ -12,6 +12,37 @@
 - MOTD 编辑器，支持预览效果
 - 服务器地址管理系统
 
+## 运行要求
+
+- Go 1.16 或更高版本
+- Windows/Linux/MacOS 系统
+- Minecraft 客户端 (1.8.x - 1.21.x)
+
+## 安装和运行
+
+1. 克隆或下载项目：
+   ```bash
+   [git clone](https://github.com/numakkiyu/MinecraftProxyChatTool.git)
+   ```
+
+2. 运行程序：
+   ```bash
+   go run server_proxy.go
+   ```
+
+3. 使用说明：
+   - 选择"代理控制"选项
+   - 输入目标服务器地址（例如：mc.hypixel.net）
+   - 选择对应的 Minecraft 版本
+   - 使用 `localhost:25566` 连接到代理服务器
+   - 成功连接后，使用 MOTD 编辑器编写消息
+   - 使用 `//up` 命令发送消息到聊天栏
+
+4. 常用命令：
+   - `//up` - 发送消息到聊天栏
+   - `//wq` - 保存并退出编辑器
+   - `//pv` - 预览消息效果
+
 ## 技术栈
 
 - Go 语言开发
