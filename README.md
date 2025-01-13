@@ -22,7 +22,7 @@
 
 1. 克隆或下载项目：
    ```bash
-   [git clone](https://github.com/numakkiyu/MinecraftProxyChatTool.git)
+   git clone https://github.com/numakkiyu/MinecraftProxyChatTool.git
    ```
 
 2. 运行程序：
